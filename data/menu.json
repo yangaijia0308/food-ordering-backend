@@ -1,0 +1,154 @@
+{
+  "categories": [
+    { "id": "appetizers", "name": { "en": "Appetizers", "es": "Aperitivos", "zh": "开胃菜" } },
+    { "id": "main-courses", "name": { "en": "Main Courses", "es": "Platos Principales", "zh": "主菜" } },
+    { "id": "drinks", "name": { "en": "Drinks", "es": "Bebidas", "zh": "饮品" } },
+    { "id": "desserts", "name": { "en": "Desserts", "es": "Postres", "zh": "甜点" } }
+  ],
+  "items": [
+    {
+      "id": "app-001",
+      "name": { "en": "Spring Rolls", "es": "Rollos de Primavera", "zh": "春卷" },
+      "description": { "en": "Crispy vegetable spring rolls served with sweet chili sauce", "es": "Rollos crujientes de verduras servidos con salsa de chile dulce", "zh": "酥脆蔬菜春卷，配甜辣酱" },
+      "price": 899,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=delicious+spring+rolls+on+white+plate+food+photography&image_size=square",
+      "available": true,
+      "category": "appetizers"
+    },
+    {
+      "id": "app-002",
+      "name": { "en": "Dumplings", "es": "Dumplings", "zh": "饺子" },
+      "description": { "en": "Steamed pork and vegetable dumplings with soy dipping sauce", "es": "Dumplings al vapor de cerdo y verduras con salsa de soja", "zh": "蒸猪肉蔬菜饺子，配酱油蘸料" },
+      "price": 1099,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=steamed+dumplings+bamboo+steamer+food+photography&image_size=square",
+      "available": true,
+      "category": "appetizers"
+    },
+    {
+      "id": "app-003",
+      "name": { "en": "Edamame", "es": "Edamame", "zh": "毛豆" },
+      "description": { "en": "Steamed edamame pods tossed with sea salt", "es": "Vainas de edamame al vapor con sal marina", "zh": "清蒸毛豆，撒海盐" },
+      "price": 699,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=edamame+bowl+sea+salt+food+photography&image_size=square",
+      "available": true,
+      "category": "appetizers"
+    },
+    {
+      "id": "app-004",
+      "name": { "en": "Wonton Soup", "es": "Sopa de Wonton", "zh": "馄饨汤" },
+      "description": { "en": "Clear broth with shrimp and pork wontons and bok choy", "es": "Caldo claro con wontons de camarón y cerdo y col china", "zh": "清汤虾仁猪肉馄饨，配小白菜" },
+      "price": 999,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=wonton+soup+bow+clear+broth+food+photography&image_size=square",
+      "available": true,
+      "category": "appetizers"
+    },
+    {
+      "id": "main-001",
+      "name": { "en": "Kung Pao Chicken", "es": "Pollo Kung Pao", "zh": "宫保鸡丁" },
+      "description": { "en": "Stir-fried chicken with peanuts, chili peppers, and Sichuan peppercorns", "es": "Pollo salteado con cacahuetes, chiles y pimienta de Sichuan", "zh": "花生辣椒花椒爆炒鸡丁" },
+      "price": 1699,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=kung+pao+chicken+plate+food+photography&image_size=square",
+      "available": true,
+      "category": "main-courses"
+    },
+    {
+      "id": "main-002",
+      "name": { "en": "Beef with Broccoli", "es": "Ternera con Brócoli", "zh": "西兰花牛肉" },
+      "description": { "en": "Tender beef slices stir-fried with broccoli in savory brown sauce", "es": "Finas lonchas de ternera salteadas con brócoli en salsa oscura", "zh": "嫩牛肉片配西兰花，酱香翻炒" },
+      "price": 1899,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=beef+broccoli+stir+fry+plate+food+photography&image_size=square",
+      "available": true,
+      "category": "main-courses"
+    },
+    {
+      "id": "main-003",
+      "name": { "en": "Mapo Tofu", "es": "Mapo Tofu", "zh": "麻婆豆腐" },
+      "description": { "en": "Silken tofu in spicy, numbing Sichuan chili bean sauce with minced pork", "es": "Tofu sedoso en salsa picante de chile y judías de Sichuan con cerdo picado", "zh": "嫩豆腐配麻辣豆瓣酱和猪肉末" },
+      "price": 1499,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=mapo+tofu+bowl+spicy+food+photography&image_size=square",
+      "available": true,
+      "category": "main-courses"
+    },
+    {
+      "id": "main-004",
+      "name": { "en": "Sweet and Sour Pork", "es": "Cerdo Agridulce", "zh": "糖醋里脊" },
+      "description": { "en": "Crispy pork pieces glazed with tangy sweet and sour sauce, garnished with pineapple", "es": "Trozos crujientes de cerdo glaseados con salsa agridulce y piña", "zh": "酥脆猪肉配糖醋酱，点缀菠萝" },
+      "price": 1799,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=sweet+sour+pork+pineapple+plate+food+photography&image_size=square",
+      "available": true,
+      "category": "main-courses"
+    },
+    {
+      "id": "drk-001",
+      "name": { "en": "Jasmine Tea", "es": "Té de Jazmín", "zh": "茉莉花茶" },
+      "description": { "en": "Fragrant jasmine green tea, freshly brewed", "es": "Té verde de jazmín fragante, recién preparado", "zh": "清香茉莉绿茶，现泡" },
+      "price": 499,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=jasmine+tea+cup+ceramic+food+photography&image_size=square",
+      "available": true,
+      "category": "drinks"
+    },
+    {
+      "id": "drk-002",
+      "name": { "en": "Plum Juice", "es": "Jugo de Ciruela", "zh": "酸梅汤" },
+      "description": { "en": "Traditional chilled sour plum drink with a hint of sweetness", "es": "Bebida tradicional fría de ciruela ácida con un toque dulce", "zh": "传统冰镇酸梅汤，微甜" },
+      "price": 599,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=plum+juice+glass+iced+drink+photography&image_size=square",
+      "available": true,
+      "category": "drinks"
+    },
+    {
+      "id": "drk-003",
+      "name": { "en": "Soy Milk", "es": "Leche de Soja", "zh": "豆浆" },
+      "description": { "en": "Freshly made warm soy milk, lightly sweetened", "es": "Leche de soja caliente recién hecha, ligeramente endulzada", "zh": "现磨热豆浆，微甜" },
+      "price": 399,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=soy+milk+glass+bowl+breakfast+photography&image_size=square",
+      "available": true,
+      "category": "drinks"
+    },
+    {
+      "id": "drk-004",
+      "name": { "en": "Lychee Soda", "es": "Soda de Lichi", "zh": "荔枝汽水" },
+      "description": { "en": "Sparkling soda with fresh lychee flavor and a splash of lime", "es": "Soda espumosa con sabor a lichi fresco y un toque de lima", "zh": "气泡苏打配新鲜荔枝味和青柠" },
+      "price": 699,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=lychee+soda+glass+sparkling+drink+photography&image_size=square",
+      "available": true,
+      "category": "drinks"
+    },
+    {
+      "id": "des-001",
+      "name": { "en": "Mango Pudding", "es": "Pudín de Mango", "zh": "芒果布丁" },
+      "description": { "en": "Silky smooth mango pudding topped with fresh mango cubes", "es": "Pudín de mango sedoso cubierto con cubos de mango fresco", "zh": "丝滑芒果布丁，配新鲜芒果粒" },
+      "price": 799,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=mango+pudding+dessert+plate+food+photography&image_size=square",
+      "available": true,
+      "category": "desserts"
+    },
+    {
+      "id": "des-002",
+      "name": { "en": "Sesame Balls", "es": "Bolas de Sésamo", "zh": "芝麻球" },
+      "description": { "en": "Crispy fried sesame balls filled with sweet red bean paste", "es": "Bolas crujientes de sésamo frito rellenas de pasta dulce de judías rojas", "zh": "酥脆炸芝麻球，红豆沙馅" },
+      "price": 699,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=sesame+balls+plate+dessert+food+photography&image_size=square",
+      "available": true,
+      "category": "desserts"
+    },
+    {
+      "id": "des-003",
+      "name": { "en": "Egg Tarts", "es": "Tartas de Huevo", "zh": "蛋挞" },
+      "description": { "en": "Flaky pastry shells filled with silky egg custard, baked golden", "es": "Cáscaras de hojaldre rellenas de crema de huevo sedosa, doradas al horno", "zh": "酥皮蛋挞，烤至金黄" },
+      "price": 899,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=egg+tarts+golden+pastry+dessert+food+photography&image_size=square",
+      "available": true,
+      "category": "desserts"
+    },
+    {
+      "id": "des-004",
+      "name": { "en": "Red Bean Soup", "es": "Sopa de Judías Rojas", "zh": "红豆沙" },
+      "description": { "en": "Warm sweet red bean soup with glutinous rice balls", "es": "Sopa caliente dulce de judías rojas con bolas de arroz glutinoso", "zh": "温热红豆沙配糯米小圆子" },
+      "price": 699,
+      "image": "https://trae-api-cn.mchont.guru/api/ide/v1/text_to_image?prompt=red+bean+soup+bowl+dessert+food+photography&image_size=square",
+      "available": true,
+      "category": "desserts"
+    }
+  ]
+}
