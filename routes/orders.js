@@ -1,6 +1,20 @@
 import { Router } from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import menuData from '../data/menu.js';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const MENU_PATH = join(__dirname, '..', 'data', 'menu.json');
+
+function getMenuData() {
+  try {
+    return JSON.parse(readFileSync(MENU_PATH, 'utf-8'));
+  } catch {
+    return { categories: [], items: [] };
+  }
+}
 
 const router = Router();
 
@@ -13,6 +27,7 @@ function validateOrderItems(items) {
     return { valid: false, error: 'Items must be a non-empty array' };
   }
 
+  const menuData = getMenuData();
   const menuMap = new Map(menuData.items.map((item) => [item.id, item]));
 
   for (const entry of items) {
@@ -36,6 +51,7 @@ function validateOrderItems(items) {
 
 // Helper: compute total price in cents
 function computeTotal(items) {
+  const menuData = getMenuData();
   const menuMap = new Map(menuData.items.map((item) => [item.id, item]));
   return items.reduce((sum, entry) => sum + menuMap.get(entry.id).price * entry.quantity, 0);
 }
